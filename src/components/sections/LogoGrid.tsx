@@ -7,13 +7,13 @@ export default function LogoGrid() {
   const logos = [
     {
       name: 'Coca Cola',
-      src: '/assets/images/67d3a65a41cfe3a157148b95_coca%20cola.webp',
+      src: '/assets/images/coca-cola.webp',
       width: 120,
       height: 40
     },
     {
       name: 'Deutsche Bahn',
-      src: '/assets/images/684135934103dc81904c6604_db%20logo.webp',
+      src: '/assets/images/db-logo.webp',
       width: 100,
       height: 40
     },

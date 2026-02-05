@@ -114,7 +114,7 @@ export default function Footer() {
               className="h-6 w-auto opacity-70"
             />
             <Image
-              src="/assets/images/6800dd62f5ce7301ec334119_Seal_Zim%404x.webp"
+              src="/assets/images/seal-zim.webp"
               alt="ZIM Seal"
               width={60}
               height={20}

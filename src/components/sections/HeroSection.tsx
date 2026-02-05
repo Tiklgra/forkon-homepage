@@ -75,7 +75,7 @@ export default function HeroSection() {
           >
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/assets/images/68b83602a24ad767e5a30842_attachment_1_Hero%20Image_DE%402x%20%281%29.png"
+                src="/assets/images/hero-image.png"
                 alt="ForkOn Intralogistics Platform"
                 fill
                 className="object-cover"
