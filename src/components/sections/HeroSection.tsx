@@ -50,14 +50,18 @@ export default function HeroSection() {
             </div>
 
             {/* Stats */}
-            <div className="mt-12 grid grid-cols-2 gap-8">
+            <div className="mt-12 grid grid-cols-2 sm:grid-cols-3 gap-8">
               <div>
                 <div className="text-3xl font-bold text-forkon-blue">10.000+</div>
-                <div className="text-gray-600">Digitalisierte Gabelstapler</div>
+                <div className="text-gray-600">Fahrzeuge in Europa</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-forkon-blue">100%</div>
-                <div className="text-gray-600">Herstellerunabhängig</div>
+                <div className="text-3xl font-bold text-forkon-blue">85%</div>
+                <div className="text-gray-600">Weniger Unfälle</div>
+              </div>
+              <div className="sm:col-span-1 col-span-2">
+                <div className="text-3xl font-bold text-forkon-blue">15%</div>
+                <div className="text-gray-600">Kostenreduktion</div>
               </div>
             </div>
           </motion.div>

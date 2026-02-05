@@ -44,6 +44,17 @@ export default function CTASection() {
                 Demo vereinbaren
               </Link>
             </div>
+            
+            <p className="mt-6 text-blue-100">
+              Oder lesen Sie unsere{" "}
+              <Link 
+                href={`/${locale}/case-studies`}
+                className="text-forkon-orange hover:text-orange-300 font-semibold transition-colors underline"
+              >
+                Erfolgsgeschichten
+              </Link>
+              {" "}und sehen Sie, was andere Unternehmen erreicht haben.
+            </p>
           </motion.div>
 
           <motion.div

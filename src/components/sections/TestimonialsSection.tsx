@@ -98,19 +98,19 @@ export default function TestimonialsSection() {
         >
           <div className="text-center">
             <div className="text-3xl font-bold text-forkon-orange mb-2">10.000+</div>
-            <div className="text-white/80">Digitalisierte Gabelstapler</div>
+            <div className="text-white/80">Fahrzeuge in Europa</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-forkon-orange mb-2">500+</div>
-            <div className="text-white/80">Zufriedene Kunden</div>
+            <div className="text-3xl font-bold text-forkon-orange mb-2">280%</div>
+            <div className="text-white/80">Kundenwachstum (12 Mon.)</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-forkon-orange mb-2">30%</div>
-            <div className="text-white/80">Effizienzsteigerung</div>
+            <div className="text-3xl font-bold text-forkon-orange mb-2">90%</div>
+            <div className="text-white/80">Kundenbindungsrate</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-forkon-orange mb-2">24/7</div>
-            <div className="text-white/80">Support & Überwachung</div>
+            <div className="text-3xl font-bold text-forkon-orange mb-2">85%</div>
+            <div className="text-white/80">Weniger Unfälle</div>
           </div>
         </motion.div>
       </div>

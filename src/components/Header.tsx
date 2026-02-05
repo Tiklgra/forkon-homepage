@@ -15,6 +15,7 @@ export default function Header() {
     {name: t('home'), href: `/${locale}`},
     {name: t('audit'), href: `/${locale}/audit`},
     {name: t('solutions'), href: `/${locale}/solutions`},
+    {name: t('caseStudies'), href: `/${locale}/case-studies`},
     {name: t('about'), href: `/${locale}/about`},
     {name: t('contact'), href: `/${locale}/contact`},
     {name: t('blog'), href: `/${locale}/blog`},
