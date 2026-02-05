@@ -14,11 +14,7 @@ export default function HeroSection() {
       <div className="container-max">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
-          <motion.div
-            initial={{opacity: 0, y: 20}}
-            animate={{opacity: 1, y: 0}}
-            transition={{duration: 0.6}}
-          >
+          <div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-forkon-blue leading-tight mb-6">
               {t('headline')}
             </h1>
@@ -64,15 +60,10 @@ export default function HeroSection() {
                 <div className="text-gray-600">Kostenreduktion</div>
               </div>
             </div>
-          </motion.div>
+          </div>
 
           {/* Hero Image */}
-          <motion.div
-            initial={{opacity: 0, x: 20}}
-            animate={{opacity: 1, x: 0}}
-            transition={{duration: 0.6, delay: 0.2}}
-            className="relative"
-          >
+          <div className="relative">
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/assets/images/hero-image.png"
@@ -90,7 +81,7 @@ export default function HeroSection() {
             <div className="absolute -bottom-4 -left-4 bg-white border border-gray-200 px-4 py-2 rounded-full font-semibold shadow-lg">
               KI-gestützt
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

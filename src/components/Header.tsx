@@ -31,7 +31,7 @@ export default function Header() {
           <div className="flex">
             <Link href={`/${locale}`} className="flex items-center">
               <Image
-                src="/assets/images/67d6fdca3b8ea3d74db3fba1_Bild6_copy-removebg-preview.webp"
+                src="/assets/images/support-image.webp"
                 alt="ForkOn"
                 width={120}
                 height={40}

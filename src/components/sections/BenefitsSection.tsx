@@ -33,28 +33,18 @@ export default function BenefitsSection() {
   return (
     <section className="section-padding bg-gray-50">
       <div className="container-max">
-        <motion.div
-          initial={{opacity: 0, y: 20}}
-          whileInView={{opacity: 1, y: 0}}
-          viewport={{once: true}}
-          transition={{duration: 0.6}}
-          className="text-center mb-16"
-        >
+        <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-forkon-blue mb-4">
             {t('title')}
           </h2>
-        </motion.div>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {benefits.map((benefit, index) => {
             const Icon = benefit.icon;
             return (
-              <motion.div
+              <div
                 key={benefit.key}
-                initial={{opacity: 0, y: 20}}
-                whileInView={{opacity: 1, y: 0}}
-                viewport={{once: true}}
-                transition={{duration: 0.6, delay: index * 0.2}}
                 className="text-center"
               >
                 <div className={`w-16 h-16 ${benefit.color} rounded-full flex items-center justify-center mx-auto mb-4`}>
@@ -66,7 +56,7 @@ export default function BenefitsSection() {
                 <p className="text-gray-600 text-center">
                   {t(`${benefit.key}.description`)}
                 </p>
-              </motion.div>
+              </div>
             );
           })}
         </div>

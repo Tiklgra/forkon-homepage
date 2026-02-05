@@ -13,12 +13,7 @@ export default function CTASection() {
     <section className="section-padding bg-gradient-to-r from-forkon-blue to-blue-800 text-white">
       <div className="container-max">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <motion.div
-            initial={{opacity: 0, x: -20}}
-            whileInView={{opacity: 1, x: 0}}
-            viewport={{once: true}}
-            transition={{duration: 0.6}}
-          >
+          <div>
             <h2 className="text-4xl lg:text-5xl font-bold mb-6">
               Bereit für die digitale Transformation?
             </h2>
@@ -55,15 +50,9 @@ export default function CTASection() {
               </Link>
               {" "}und sehen Sie, was andere Unternehmen erreicht haben.
             </p>
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial={{opacity: 0, x: 20}}
-            whileInView={{opacity: 1, x: 0}}
-            viewport={{once: true}}
-            transition={{duration: 0.6, delay: 0.2}}
-            className="grid grid-cols-1 sm:grid-cols-2 gap-6"
-          >
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="bg-white/10 backdrop-blur rounded-xl p-6 border border-white/20">
               <div className="text-3xl font-bold text-forkon-orange mb-2">Kostenlos</div>
               <div className="text-blue-100">360° Intralogistics Audit</div>
@@ -80,7 +69,7 @@ export default function CTASection() {
               <div className="text-3xl font-bold text-forkon-orange mb-2">24/7</div>
               <div className="text-blue-100">Support & Monitoring</div>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

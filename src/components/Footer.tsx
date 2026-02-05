@@ -16,7 +16,7 @@ export default function Footer() {
           {/* Logo & Tagline */}
           <div className="md:col-span-2">
             <Image
-              src="/assets/images/67d6fdca3b8ea3d74db3fba1_Bild6_copy-removebg-preview.webp"
+              src="/assets/images/support-image.webp"
               alt="ForkOn"
               width={120}
               height={40}
@@ -107,7 +107,7 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-4 mt-4 md:mt-0">
             <Image
-              src="/assets/images/67d6fe1a6561d1219bec351d_BMWK_Fz_2021_Office_Farbe_en.webp"
+              src="/assets/images/bmwk-logo.webp"
               alt="BMWK"
               width={80}
               height={24}

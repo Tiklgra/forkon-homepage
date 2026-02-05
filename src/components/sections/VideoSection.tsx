@@ -6,28 +6,16 @@ export default function VideoSection() {
   return (
     <section className="section-padding bg-white">
       <div className="container-max">
-        <motion.div
-          initial={{opacity: 0, y: 20}}
-          whileInView={{opacity: 1, y: 0}}
-          viewport={{once: true}}
-          transition={{duration: 0.6}}
-          className="text-center mb-12"
-        >
+        <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-forkon-blue mb-4">
             Erleben Sie ForkOn in Aktion
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Sehen Sie, wie unsere Telematik-Lösung Ihre Intralogistik revolutioniert
           </p>
-        </motion.div>
+        </div>
 
-        <motion.div
-          initial={{opacity: 0, scale: 0.95}}
-          whileInView={{opacity: 1, scale: 1}}
-          viewport={{once: true}}
-          transition={{duration: 0.6, delay: 0.2}}
-          className="max-w-4xl mx-auto"
-        >
+        <div className="max-w-4xl mx-auto">
           <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl">
             <iframe
               src="https://www.youtube.com/embed/X5YoocqmMjE"
@@ -37,16 +25,11 @@ export default function VideoSection() {
               className="w-full h-full"
             />
           </div>
-        </motion.div>
+        </div>
 
         {/* Additional Videos */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
-          <motion.div
-            initial={{opacity: 0, x: -20}}
-            whileInView={{opacity: 1, x: 0}}
-            viewport={{once: true}}
-            transition={{duration: 0.6, delay: 0.4}}
-          >
+          <div>
             <h3 className="text-xl font-semibold text-forkon-blue mb-4">
               Flottenmanagement Highlights
             </h3>
@@ -59,14 +42,9 @@ export default function VideoSection() {
                 className="w-full h-full"
               />
             </div>
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial={{opacity: 0, x: 20}}
-            whileInView={{opacity: 1, x: 0}}
-            viewport={{once: true}}
-            transition={{duration: 0.6, delay: 0.6}}
-          >
+          <div>
             <h3 className="text-xl font-semibold text-forkon-blue mb-4">
               Sicherheit & Optimierung
             </h3>
@@ -79,7 +57,7 @@ export default function VideoSection() {
                 className="w-full h-full"
               />
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

@@ -41,26 +41,16 @@ export default function TestimonialsSection() {
   return (
     <section className="section-padding bg-forkon-blue text-white">
       <div className="container-max">
-        <motion.div
-          initial={{opacity: 0, y: 20}}
-          whileInView={{opacity: 1, y: 0}}
-          viewport={{once: true}}
-          transition={{duration: 0.6}}
-          className="text-center mb-16"
-        >
+        <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">
             {t('title')}
           </h2>
-        </motion.div>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <motion.div
+            <div
               key={index}
-              initial={{opacity: 0, y: 20}}
-              whileInView={{opacity: 1, y: 0}}
-              viewport={{once: true}}
-              transition={{duration: 0.6, delay: index * 0.2}}
               className="bg-white/10 backdrop-blur rounded-xl p-8"
             >
               <div className="flex items-center mb-4">
@@ -84,18 +74,12 @@ export default function TestimonialsSection() {
                   {testimonial.company}
                 </div>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
 
         {/* Social Proof Numbers */}
-        <motion.div
-          initial={{opacity: 0, y: 20}}
-          whileInView={{opacity: 1, y: 0}}
-          viewport={{once: true}}
-          transition={{duration: 0.6, delay: 0.8}}
-          className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 pt-16 border-t border-white/20"
-        >
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 pt-16 border-t border-white/20">
           <div className="text-center">
             <div className="text-3xl font-bold text-forkon-orange mb-2">10.000+</div>
             <div className="text-white/80">Fahrzeuge in Europa</div>
@@ -112,7 +96,7 @@ export default function TestimonialsSection() {
             <div className="text-3xl font-bold text-forkon-orange mb-2">85%</div>
             <div className="text-white/80">Weniger Unfälle</div>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );
