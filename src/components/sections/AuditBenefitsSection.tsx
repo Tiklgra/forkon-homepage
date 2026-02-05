@@ -47,7 +47,7 @@ export default function AuditBenefitsSection() {
     <section className="section-padding bg-white">
       <div className="container-max">
         <motion.div
-          initial={{opacity: 0, y: 20}}
+          initial={{opacity: 1, y: 20}}
           whileInView={{opacity: 1, y: 0}}
           viewport={{once: true}}
           transition={{duration: 0.6}}
@@ -67,7 +67,7 @@ export default function AuditBenefitsSection() {
             return (
               <motion.div
                 key={index}
-                initial={{opacity: 0, y: 20}}
+                initial={{opacity: 1, y: 20}}
                 whileInView={{opacity: 1, y: 0}}
                 viewport={{once: true}}
                 transition={{duration: 0.6, delay: index * 0.1}}

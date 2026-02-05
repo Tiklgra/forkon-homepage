@@ -37,7 +37,7 @@ export default function AuditFormSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Form Content */}
           <motion.div
-            initial={{opacity: 0, x: -20}}
+            initial={{opacity: 1, x: -20}}
             whileInView={{opacity: 1, x: 0}}
             viewport={{once: true}}
             transition={{duration: 0.6}}
@@ -86,7 +86,7 @@ export default function AuditFormSection() {
 
           {/* Form */}
           <motion.div
-            initial={{opacity: 0, x: 20}}
+            initial={{opacity: 1, x: 20}}
             whileInView={{opacity: 1, x: 0}}
             viewport={{once: true}}
             transition={{duration: 0.6, delay: 0.2}}

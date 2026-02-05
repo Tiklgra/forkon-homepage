@@ -26,7 +26,7 @@ export default function CaseStudiesHero() {
     <section className="bg-gradient-to-br from-forkon-blue via-blue-800 to-blue-900 text-white section-padding py-20 lg:py-32">
       <div className="container-max">
         <motion.div
-          initial={{opacity: 0, y: 20}}
+          initial={{opacity: 1, y: 20}}
           animate={{opacity: 1, y: 0}}
           transition={{duration: 0.6}}
           className="text-center"
@@ -45,7 +45,7 @@ export default function CaseStudiesHero() {
               return (
                 <motion.div
                   key={index}
-                  initial={{opacity: 0, y: 20}}
+                  initial={{opacity: 1, y: 20}}
                   animate={{opacity: 1, y: 0}}
                   transition={{duration: 0.6, delay: 0.6 + index * 0.2}}
                   className="bg-white/10 backdrop-blur rounded-xl p-6 border border-white/20"

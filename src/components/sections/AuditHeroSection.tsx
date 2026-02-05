@@ -20,7 +20,7 @@ export default function AuditHeroSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <motion.div
-            initial={{opacity: 0, y: 20}}
+            initial={{opacity: 1, y: 20}}
             animate={{opacity: 1, y: 0}}
             transition={{duration: 0.6}}
           >
@@ -46,7 +46,7 @@ export default function AuditHeroSection() {
               {benefits.map((benefit, index) => (
                 <motion.div
                   key={index}
-                  initial={{opacity: 0, x: -20}}
+                  initial={{opacity: 1, x: -20}}
                   animate={{opacity: 1, x: 0}}
                   transition={{duration: 0.4, delay: 0.6 + index * 0.1}}
                   className="flex items-center gap-3"
@@ -60,7 +60,7 @@ export default function AuditHeroSection() {
             {/* CTA Button */}
             <motion.a
               href="#audit-form"
-              initial={{opacity: 0, y: 20}}
+              initial={{opacity: 1, y: 20}}
               animate={{opacity: 1, y: 0}}
               transition={{duration: 0.6, delay: 1}}
               className="inline-block bg-forkon-orange hover:bg-orange-600 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl"
@@ -71,7 +71,7 @@ export default function AuditHeroSection() {
 
           {/* Visual Elements */}
           <motion.div
-            initial={{opacity: 0, x: 20}}
+            initial={{opacity: 1, x: 20}}
             animate={{opacity: 1, x: 0}}
             transition={{duration: 0.6, delay: 0.2}}
             className="relative"
