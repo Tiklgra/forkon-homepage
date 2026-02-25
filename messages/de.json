@@ -1,0 +1,186 @@
+{
+  "Meta": {
+    "title": "ForkOn – Flottenmanagement für Gabelstapler | Kosten senken, Sicherheit steigern",
+    "description": "80-90% Ihrer Staplerflotten-Kosten sind unsichtbar. ForkOn bringt Transparenz: Herstellerunabhängiges Flottenmanagement mit Telematik."
+  },
+  "Nav": {
+    "problems": "Herausforderungen",
+    "audit": "360° Audit",
+    "fleet": "Flottenmanagement",
+    "results": "Erfolge",
+    "about": "Über uns",
+    "checklist": "Checkliste",
+    "cta": "Erstgespräch buchen"
+  },
+  "Hero": {
+    "eyebrow": "Über 10.000 Fahrzeuge digitalisiert",
+    "headline": "80–90% Ihrer Flottenkosten sind unsichtbar.",
+    "subheadline": "Die meisten Unternehmen kennen die wahren Kosten ihrer Staplerflotte nicht. Mit ForkOn bringen Sie Transparenz in Ihre Intralogistik – herstellerunabhängig, datenbasiert und mit messbarem ROI.",
+    "ctaPrimary": "Erstgespräch vereinbaren",
+    "ctaSecondary": "Kostenlose Checkliste",
+    "stat1Value": "14%",
+    "stat1Label": "Flottenkosten-Reduktion",
+    "stat2Value": "80%",
+    "stat2Label": "Weniger Kollisionen",
+    "stat3Value": "90%",
+    "stat3Label": "Weniger Admin-Aufwand"
+  },
+  "TrustBar": {
+    "label": "Vertrauen von führenden Unternehmen"
+  },
+  "Problems": {
+    "title": "Kennen Sie diese Herausforderungen?",
+    "subtitle": "In deutschen Unternehmen gehen täglich Millionen durch ineffizientes Flottenmanagement verloren. Die größten Kostentreiber bleiben oft unsichtbar.",
+    "problem1": {
+      "stat": "80-90%",
+      "title": "Versteckte Flottenkosten",
+      "text": "Der Kaufpreis macht nur 14-20% der Gesamtkosten aus. Der Rest – Wartung, Energie, Ausfälle, Produktivitätsverluste – bleibt oft unsichtbar."
+    },
+    "problem2": {
+      "stat": "50/Tag",
+      "title": "Unfälle & Haftungsrisiken",
+      "text": "Deutschland verzeichnet täglich ~50 Staplerarbeitsunfälle. Betriebsleiter haften persönlich – bis hin zur Strafverfolgung bei Fahrlässigkeit."
+    },
+    "problem3": {
+      "stat": "52%",
+      "title": "Fachkräftemangel",
+      "text": "Mehr als die Hälfte aller Transport- & Lagerunternehmen können offene Stellen nicht besetzen. Erfahrene Mitarbeiter gehen in Rente – ihr Wissen geht verloren."
+    },
+    "problem4": {
+      "stat": "63%",
+      "title": "Digitales Niemandsland",
+      "text": "Fast zwei Drittel aller Unternehmen haben ihre Intralogistik nicht automatisiert. Daten liegen in Excel, Verträge in Ordnern – kein Gesamtbild möglich."
+    },
+    "problem5": {
+      "stat": "DGUV",
+      "title": "Compliance-Druck",
+      "text": "DGUV 308-001 wurde 2022 verschärft. UVV-Prüfungen, Fahrausweise, jährliche Unterweisungen – alles muss dokumentiert sein. Lücken = Haftung."
+    }
+  },
+  "Audit": {
+    "eyebrow": "Phase 1: Standortbestimmung",
+    "title": "Das 360° Intralog Audit",
+    "text": "Bevor Sie optimieren, müssen Sie wissen, wo Sie stehen. Unser Audit gibt Ihnen eine objektive, herstellerunabhängige Analyse Ihrer gesamten Intralogistik – durchgeführt von zertifizierten Sachverständigen.",
+    "feature1": "VDI-Fachkreis 305 – Durchgeführt von aktiven Mitgliedern",
+    "feature2": "114+ Prüfpunkte in 5 Bereichen, nach allen relevanten Normen",
+    "feature3": "Konkreter Maßnahmenplan – keine Theorie, sondern umsetzbare Empfehlungen",
+    "feature4": "ROI-Potenzial aufdecken – Kunden erzielen regelmäßig 14% Kosteneinsparung",
+    "cta": "Erstgespräch zum Audit",
+    "cardTitle": "Prüfbereiche",
+    "cardSubtitle": "Ganzheitliche Analyse in 5 Dimensionen",
+    "area1": "Unternehmensdaten & Flotte",
+    "area1Count": "Basis",
+    "area2": "Intralogistik-Infrastruktur",
+    "area2Count": "25 Punkte",
+    "area3": "Sicherheitsprüfungen",
+    "area3Count": "55 Punkte",
+    "area4": "Energiemanagement",
+    "area4Count": "30 Punkte",
+    "area5": "Nachhaltigkeit & ESG",
+    "area5Count": "4 Punkte"
+  },
+  "Fleet": {
+    "title": "Der nächste Schritt: Dauerhaft optimieren",
+    "subtitle": "Nach dem Audit wissen Sie, wo Potenziale liegen. Mit ForkX Flottenmanagement und Auslastungstelematik heben Sie diese – kontinuierlich und messbar.",
+    "software": {
+      "badge": "Software",
+      "title": "ForkX Cloud-Plattform",
+      "text": "Alle Fahrzeuge, Verträge und Dokumente an einem Ort – herstellerunabhängig. Mit KI-gestützter Rechnungsanalyse und automatisiertem Reporting.",
+      "feature1": "Zentrales Fahrzeugmanagement (alle Hersteller)",
+      "feature2": "KI-Dokumenten-Upload & Rechnungsprüfung",
+      "feature3": "Dashboard & KPIs für die Geschäftsführung",
+      "feature4": "Wartungsplanung & Vertragsüberwachung",
+      "feature5": "Export in Excel, PDF, Google Docs"
+    },
+    "hardware": {
+      "badge": "Hardware",
+      "title": "ForkLink Telematik",
+      "text": "Günstige Einstiegslösung für Auslastungsdaten. Einfacher Retrofit-Einbau, keine Herstellerfreigabe nötig. Die Basis für alle Optimierungsentscheidungen.",
+      "feature1": "Betriebsstunden & Nutzungszeiten erfassen",
+      "feature2": "GPS-Ortung & Stillstandsanalyse",
+      "feature3": "RFID-Zugangssteuerung & Schockerkennung",
+      "feature4": "Digitaler Pre-Op-Check",
+      "feature5": "SIM-basierte Cloud-Anbindung"
+    },
+    "cta": "Kostenlose Flottenanalyse buchen"
+  },
+  "Results": {
+    "title": "Messbare Ergebnisse unserer Kunden",
+    "subtitle": "Keine Versprechen – echte Zahlen aus realen Projekten.",
+    "duisport": {
+      "industry": "Hafenlogistik",
+      "company": "duisport",
+      "subtitle": "Weltgrößter Binnenhafen – Duisburg",
+      "stat1Value": "80%",
+      "stat1Label": "Weniger Kollisionen",
+      "stat2Value": "100%",
+      "stat2Label": "Sicherheits-Compliance",
+      "stat3Value": "35%",
+      "stat3Label": "Weniger Risikoverhalten",
+      "stat4Value": "14%",
+      "stat4Label": "Kostenreduktion",
+      "quote": "Dank RFID-Zugangskontrolle und Echtzeit-Schockerkennung haben wir unsere Unfallzahlen im ersten Jahr um 80% reduziert."
+    },
+    "automotive": {
+      "industry": "Automotive",
+      "company": "Führender OEM",
+      "subtitle": "Competitor Replacement Case",
+      "stat1Value": "100%",
+      "stat1Label": "Weniger IT-Aufwand",
+      "stat2Value": "12 Wo.",
+      "stat2Label": "Schnellerer Rollout",
+      "stat3Value": "85%",
+      "stat3Label": "Niedrigere Upfront-Kosten",
+      "stat4Value": "2h",
+      "stat4Label": "Operator-Onboarding",
+      "quote": "ForkOn hat unseren vorherigen Anbieter ersetzt: 12 Wochen schnellerer Rollout, 98% Kundenzufriedenheit, 90% weniger Admin-Aufwand."
+    }
+  },
+  "LeadMagnet": {
+    "title": "Checkliste: 10 Punkte, die jede Staplerflotte prüfen muss",
+    "text": "UVV, DGUV, BetrSichV – wissen Sie, ob Ihre Flotte alle Anforderungen erfüllt? Unsere kostenlose Checkliste zeigt Ihnen die wichtigsten Prüfpunkte auf einen Blick.",
+    "point1": "UVV-Prüfung nach DGUV Vorschrift 68",
+    "point2": "Fahrausweise & jährliche Nachschulung",
+    "point3": "Ladestationen & Ladeplätze nach BetrSichV",
+    "point4": "Regalprüfung nach DIN EN 15635",
+    "point5": "CO₂-Emissionen & CSRD-Vorbereitung",
+    "formTitle": "Jetzt kostenlos herunterladen",
+    "formSubtitle": "Erhalten Sie die Checkliste direkt per E-Mail.",
+    "labelName": "Name",
+    "labelEmail": "E-Mail",
+    "labelCompany": "Unternehmen",
+    "submit": "Checkliste herunterladen",
+    "note": "Kein Spam. Ihre Daten sind sicher. Sie können sich jederzeit abmelden."
+  },
+  "Manufacturers": {
+    "title": "Herstellerunabhängig – für jede Flotte",
+    "subtitle": "ForkOn funktioniert mit allen gängigen Gabelstapler-Marken. Keine Abhängigkeit, volle Flexibilität.",
+    "more": "...und viele mehr"
+  },
+  "FinalCTA": {
+    "title": "Bereit für transparente Flottenkosten?",
+    "text": "Ob Sie mit einem Audit starten oder direkt ins Flottenmanagement einsteigen möchten – wir beraten Sie persönlich und unverbindlich.",
+    "ctaPrimary": "Erstgespräch buchen",
+    "ctaSecondary": "+49 221 9865 0240",
+    "contactName": "Volker Quirin",
+    "contactRole": "Director Business Development & Consulting"
+  },
+  "Footer": {
+    "tagline": "Europas führende Cloud-Telematikplattform für herstellerunabhängiges Gabelstapler-Flottenmanagement. Über 10.000 Fahrzeuge digitalisiert.",
+    "solutions": "Lösungen",
+    "company": "Unternehmen",
+    "legal": "Rechtliches",
+    "audit": "360° Intralog Audit",
+    "forkx": "ForkX Cloud",
+    "forklink": "ForkLink Telematik",
+    "useCases": "Anwendungsfälle",
+    "about": "Über uns",
+    "insights": "Einblicke",
+    "contact": "Kontakt",
+    "careers": "Karriere",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "copyright": "© 2026 ForkOn GmbH. Alle Rechte vorbehalten."
+  }
+}

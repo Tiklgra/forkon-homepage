@@ -7,4 +7,4 @@ out/
 .DS_Store
 *.tsbuildinfo
 next-env.d.ts
-messages/
+# messages/ - now tracked for i18n

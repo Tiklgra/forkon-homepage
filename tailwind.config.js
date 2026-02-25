@@ -9,8 +9,9 @@ module.exports = {
     extend: {
       colors: {
         forkon: {
-          blue: '#1a365d',
-          orange: '#e67e22',
+          blue: '#0A1E58',
+          'blue-light': '#3AB1FC',
+          orange: '#F27220',
         },
       },
     },

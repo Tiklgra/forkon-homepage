@@ -1,87 +1,126 @@
 'use client';
 
-import {useTranslations, useLocale} from 'next-intl';
-import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 import Link from 'next/link';
-import {motion} from 'framer-motion';
+import { motion } from 'framer-motion';
+import { ArrowRight } from 'lucide-react';
 
 export default function HeroSection() {
   const t = useTranslations('Hero');
-  const locale = useLocale();
 
   return (
-    <section className="bg-gradient-to-br from-white to-gray-50 section-padding py-20 lg:py-32">
-      <div className="container-max">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Content */}
-          <div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-forkon-blue leading-tight mb-6">
-              {t('headline')}
-            </h1>
-            
-            <p className="text-xl text-gray-600 mb-6 leading-relaxed">
-              {t('subheadline')}
-            </p>
-            
-            <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              {t('description')}
-            </p>
+    <section className="relative min-h-screen flex items-center bg-gradient-to-br from-forkon-blue via-[#0d2466] to-forkon-blue-light overflow-hidden pt-20">
+      {/* Background Pattern */}
+      <div className="absolute inset-0 opacity-30">
+        <div 
+          className="absolute inset-0"
+          style={{
+            backgroundImage: `
+              radial-gradient(circle at 20% 80%, rgba(58, 177, 252, 0.15) 0%, transparent 50%),
+              radial-gradient(circle at 80% 20%, rgba(242, 114, 32, 0.1) 0%, transparent 50%)
+            `
+          }}
+        />
+        <div 
+          className="absolute inset-0"
+          style={{
+            backgroundImage: `
+              linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+              linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px)
+            `,
+            backgroundSize: '60px 60px'
+          }}
+        />
+      </div>
 
-            {/* CTAs */}
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link
-                href={`/${locale}/audit`}
-                className="btn-primary text-center"
-              >
-                {t('ctaPrimary')}
-              </Link>
-              <Link
-                href="https://forkongmbh.pipedrive.com/scheduler/82v7R9F2/digitale-flotten-analyse-dfa"
-                className="btn-secondary text-center"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {t('ctaSecondary')}
-              </Link>
-            </div>
+      <div className="container-max relative z-10">
+        <div className="max-w-3xl">
+          {/* Eyebrow */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="inline-flex items-center gap-2 px-4 py-2 bg-forkon-orange/15 border border-forkon-orange/30 rounded-full text-forkon-orange text-sm font-semibold mb-6"
+          >
+            <span className="w-2 h-2 bg-forkon-orange rounded-full animate-pulse" />
+            {t('eyebrow')}
+          </motion.div>
 
-            {/* Stats */}
-            <div className="mt-12 grid grid-cols-2 sm:grid-cols-3 gap-8">
-              <div>
-                <div className="text-3xl font-bold text-forkon-blue">10.000+</div>
-                <div className="text-gray-600">Fahrzeuge in Europa</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold text-forkon-blue">85%</div>
-                <div className="text-gray-600">Weniger Unfälle</div>
-              </div>
-              <div className="sm:col-span-1 col-span-2">
-                <div className="text-3xl font-bold text-forkon-blue">15%</div>
-                <div className="text-gray-600">Kostenreduktion</div>
-              </div>
-            </div>
-          </div>
+          {/* Headline */}
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+            className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6"
+          >
+            {t('headline').split('unsichtbar').map((part, i) => (
+              <span key={i}>
+                {part}
+                {i === 0 && <span className="text-forkon-orange">unsichtbar.</span>}
+              </span>
+            ))}
+          </motion.h1>
 
-          {/* Hero Image */}
-          <div className="relative">
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
-              <Image
-                src="/assets/images/hero-image.png"
-                alt="ForkOn Intralogistics Platform"
-                fill
-                className="object-cover"
-                priority
-              />
+          {/* Subheadline */}
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="text-xl text-white/80 mb-10 max-w-2xl leading-relaxed"
+          >
+            {t('subheadline')}
+          </motion.p>
+
+          {/* CTAs */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            className="flex flex-col sm:flex-row gap-4"
+          >
+            <Link
+              href="https://forkongmbh.pipedrive.com/scheduler/kOJ5wYhA/erstgesprach-zum-forkon-360-intralog-audit"
+              className="btn-primary inline-flex items-center justify-center gap-2 text-lg px-8 py-4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {t('ctaPrimary')}
+              <ArrowRight className="w-5 h-5" />
+            </Link>
+            <Link
+              href="#lead-magnet"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-transparent border-2 border-white/30 text-white rounded-xl font-semibold hover:bg-white/10 hover:border-white/50 transition-all"
+            >
+              {t('ctaSecondary')}
+            </Link>
+          </motion.div>
+
+          {/* Stats */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="flex flex-col sm:flex-row gap-8 sm:gap-12 mt-16 pt-10 border-t border-white/10"
+          >
+            <div>
+              <div className="text-4xl font-bold text-white">
+                {t('stat1Value')}<span className="text-forkon-orange">%</span>
+              </div>
+              <div className="text-sm text-white/60 mt-1">{t('stat1Label')}</div>
             </div>
-            
-            {/* Floating Elements */}
-            <div className="absolute -top-4 -right-4 bg-forkon-orange text-white px-4 py-2 rounded-full font-semibold shadow-lg">
-              360° Audit
+            <div>
+              <div className="text-4xl font-bold text-white">
+                {t('stat2Value')}<span className="text-forkon-orange">%</span>
+              </div>
+              <div className="text-sm text-white/60 mt-1">{t('stat2Label')}</div>
             </div>
-            <div className="absolute -bottom-4 -left-4 bg-white border border-gray-200 px-4 py-2 rounded-full font-semibold shadow-lg">
-              KI-gestützt
+            <div>
+              <div className="text-4xl font-bold text-white">
+                {t('stat3Value')}<span className="text-forkon-orange">%</span>
+              </div>
+              <div className="text-sm text-white/60 mt-1">{t('stat3Label')}</div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

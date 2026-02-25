@@ -1,0 +1,186 @@
+{
+  "Meta": {
+    "title": "ForkOn – Forklift Fleet Management | Reduce Costs, Increase Safety",
+    "description": "80-90% of your fleet costs are invisible. ForkOn brings transparency: Manufacturer-independent fleet management with telematics."
+  },
+  "Nav": {
+    "problems": "Challenges",
+    "audit": "360° Audit",
+    "fleet": "Fleet Management",
+    "results": "Results",
+    "about": "About Us",
+    "checklist": "Checklist",
+    "cta": "Book a Call"
+  },
+  "Hero": {
+    "eyebrow": "Over 10,000 vehicles digitized",
+    "headline": "80–90% of your fleet costs are invisible.",
+    "subheadline": "Most companies don't know the true costs of their forklift fleet. With ForkOn, you bring transparency to your intralogistics – manufacturer-independent, data-driven, and with measurable ROI.",
+    "ctaPrimary": "Book a Call",
+    "ctaSecondary": "Free Checklist",
+    "stat1Value": "14%",
+    "stat1Label": "Fleet Cost Reduction",
+    "stat2Value": "80%",
+    "stat2Label": "Fewer Collisions",
+    "stat3Value": "90%",
+    "stat3Label": "Less Admin Effort"
+  },
+  "TrustBar": {
+    "label": "Trusted by industry leaders"
+  },
+  "Problems": {
+    "title": "Do you face these challenges?",
+    "subtitle": "German companies lose millions daily due to inefficient fleet management. The biggest cost drivers often remain invisible.",
+    "problem1": {
+      "stat": "80-90%",
+      "title": "Hidden Fleet Costs",
+      "text": "The purchase price makes up only 14-20% of total costs. The rest – maintenance, energy, downtime, productivity losses – often remains invisible."
+    },
+    "problem2": {
+      "stat": "50/day",
+      "title": "Accidents & Liability Risks",
+      "text": "Germany records ~50 forklift accidents daily. Operations managers are personally liable – including potential prosecution for negligence."
+    },
+    "problem3": {
+      "stat": "52%",
+      "title": "Skilled Worker Shortage",
+      "text": "More than half of all transport & warehouse companies cannot fill open positions. Experienced workers retire – their knowledge is lost."
+    },
+    "problem4": {
+      "stat": "63%",
+      "title": "Digital Dead Zone",
+      "text": "Almost two-thirds of companies haven't automated their intralogistics. Data sits in Excel, contracts in folders – no complete picture possible."
+    },
+    "problem5": {
+      "stat": "DGUV",
+      "title": "Compliance Pressure",
+      "text": "DGUV 308-001 was tightened in 2022. UVV inspections, driver's licenses, annual briefings – everything must be documented. Gaps = liability."
+    }
+  },
+  "Audit": {
+    "eyebrow": "Phase 1: Assessment",
+    "title": "The 360° Intralog Audit",
+    "text": "Before you optimize, you need to know where you stand. Our audit gives you an objective, manufacturer-independent analysis of your entire intralogistics – conducted by certified experts.",
+    "feature1": "VDI Expert Circle 305 – Conducted by active members",
+    "feature2": "114+ checkpoints in 5 areas, according to all relevant standards",
+    "feature3": "Concrete action plan – not theory, but implementable recommendations",
+    "feature4": "Uncover ROI potential – customers regularly achieve 14% cost savings",
+    "cta": "Book Audit Consultation",
+    "cardTitle": "Audit Areas",
+    "cardSubtitle": "Holistic analysis in 5 dimensions",
+    "area1": "Company Data & Fleet",
+    "area1Count": "Base",
+    "area2": "Intralogistics Infrastructure",
+    "area2Count": "25 points",
+    "area3": "Safety Inspections",
+    "area3Count": "55 points",
+    "area4": "Energy Management",
+    "area4Count": "30 points",
+    "area5": "Sustainability & ESG",
+    "area5Count": "4 points"
+  },
+  "Fleet": {
+    "title": "The Next Step: Continuous Optimization",
+    "subtitle": "After the audit, you know where potential lies. With ForkX fleet management and utilization telematics, you realize it – continuously and measurably.",
+    "software": {
+      "badge": "Software",
+      "title": "ForkX Cloud Platform",
+      "text": "All vehicles, contracts, and documents in one place – manufacturer-independent. With AI-powered invoice analysis and automated reporting.",
+      "feature1": "Central vehicle management (all manufacturers)",
+      "feature2": "AI document upload & invoice verification",
+      "feature3": "Dashboard & KPIs for management",
+      "feature4": "Maintenance planning & contract monitoring",
+      "feature5": "Export to Excel, PDF, Google Docs"
+    },
+    "hardware": {
+      "badge": "Hardware",
+      "title": "ForkLink Telematics",
+      "text": "Affordable entry-level solution for utilization data. Simple retrofit installation, no manufacturer approval needed. The basis for all optimization decisions.",
+      "feature1": "Capture operating hours & usage times",
+      "feature2": "GPS tracking & idle time analysis",
+      "feature3": "RFID access control & shock detection",
+      "feature4": "Digital pre-op check",
+      "feature5": "SIM-based cloud connection"
+    },
+    "cta": "Book Free Fleet Analysis"
+  },
+  "Results": {
+    "title": "Measurable Results from Our Customers",
+    "subtitle": "No promises – real numbers from real projects.",
+    "duisport": {
+      "industry": "Port Logistics",
+      "company": "duisport",
+      "subtitle": "World's largest inland port – Duisburg",
+      "stat1Value": "80%",
+      "stat1Label": "Fewer Collisions",
+      "stat2Value": "100%",
+      "stat2Label": "Safety Compliance",
+      "stat3Value": "35%",
+      "stat3Label": "Less Risk Behavior",
+      "stat4Value": "14%",
+      "stat4Label": "Cost Reduction",
+      "quote": "Thanks to RFID access control and real-time shock detection, we reduced our accident numbers by 80% in the first year."
+    },
+    "automotive": {
+      "industry": "Automotive",
+      "company": "Leading OEM",
+      "subtitle": "Competitor Replacement Case",
+      "stat1Value": "100%",
+      "stat1Label": "Less IT Overhead",
+      "stat2Value": "12 wks",
+      "stat2Label": "Faster Rollout",
+      "stat3Value": "85%",
+      "stat3Label": "Lower Upfront Costs",
+      "stat4Value": "2h",
+      "stat4Label": "Operator Onboarding",
+      "quote": "ForkOn replaced our previous provider: 12 weeks faster rollout, 98% customer satisfaction, 90% less admin effort."
+    }
+  },
+  "LeadMagnet": {
+    "title": "Checklist: 10 Points Every Forklift Fleet Must Check",
+    "text": "UVV, DGUV, BetrSichV – do you know if your fleet meets all requirements? Our free checklist shows you the most important checkpoints at a glance.",
+    "point1": "UVV inspection per DGUV regulation 68",
+    "point2": "Driver's licenses & annual retraining",
+    "point3": "Charging stations & charging areas per BetrSichV",
+    "point4": "Rack inspection per DIN EN 15635",
+    "point5": "CO₂ emissions & CSRD preparation",
+    "formTitle": "Download for free now",
+    "formSubtitle": "Receive the checklist directly via email.",
+    "labelName": "Name",
+    "labelEmail": "Email",
+    "labelCompany": "Company",
+    "submit": "Download Checklist",
+    "note": "No spam. Your data is secure. You can unsubscribe at any time."
+  },
+  "Manufacturers": {
+    "title": "Manufacturer-Independent – For Every Fleet",
+    "subtitle": "ForkOn works with all common forklift brands. No dependency, full flexibility.",
+    "more": "...and many more"
+  },
+  "FinalCTA": {
+    "title": "Ready for transparent fleet costs?",
+    "text": "Whether you want to start with an audit or go directly into fleet management – we advise you personally and without obligation.",
+    "ctaPrimary": "Book a Call",
+    "ctaSecondary": "+49 221 9865 0240",
+    "contactName": "Volker Quirin",
+    "contactRole": "Director Business Development & Consulting"
+  },
+  "Footer": {
+    "tagline": "Europe's leading cloud telematics platform for manufacturer-independent forklift fleet management. Over 10,000 vehicles digitized.",
+    "solutions": "Solutions",
+    "company": "Company",
+    "legal": "Legal",
+    "audit": "360° Intralog Audit",
+    "forkx": "ForkX Cloud",
+    "forklink": "ForkLink Telematics",
+    "useCases": "Use Cases",
+    "about": "About Us",
+    "insights": "Insights",
+    "contact": "Contact",
+    "careers": "Careers",
+    "imprint": "Imprint",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "copyright": "© 2026 ForkOn GmbH. All rights reserved."
+  }
+}
