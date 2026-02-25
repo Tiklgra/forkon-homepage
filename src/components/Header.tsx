@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X, Globe } from 'lucide-react';
 
 export default function Header() {
@@ -34,20 +35,22 @@ export default function Header() {
     <header 
       className={`fixed w-full top-0 z-50 transition-all duration-300 ${
         isScrolled 
-          ? 'bg-forkon-blue/95 backdrop-blur-md shadow-lg py-3' 
-          : 'bg-forkon-blue/80 backdrop-blur-sm py-4'
+          ? 'bg-forkon-blue/95 backdrop-blur-md shadow-lg py-2' 
+          : 'bg-forkon-blue/80 backdrop-blur-sm py-3'
       }`}
     >
       <nav className="container-max px-6" aria-label="Main">
         <div className="flex justify-between items-center">
-          {/* Logo - Text Based */}
-          <Link href={`/${locale}`} className="flex items-center gap-3 group">
-            <div className="w-9 h-9 bg-forkon-orange rounded-lg flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
-              <span className="text-white font-bold text-lg">F</span>
-            </div>
-            <span className="text-white font-bold text-xl tracking-tight">
-              Fork<span className="text-forkon-orange">On</span>
-            </span>
+          {/* Logo - Real ForkOn Logo */}
+          <Link href={`/${locale}`} className="flex items-center">
+            <Image
+              src="/assets/images/forkon-logo-light.png"
+              alt="ForkOn"
+              width={140}
+              height={36}
+              className="h-8 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -80,7 +83,7 @@ export default function Header() {
             </Link>
             <Link
               href="https://forkongmbh.pipedrive.com/scheduler/kOJ5wYhA/erstgesprach-zum-forkon-360-intralog-audit"
-              className="btn-primary py-2.5 px-5 text-sm"
+              className="btn-primary py-2 px-5 text-sm"
               target="_blank"
               rel="noopener noreferrer"
             >
